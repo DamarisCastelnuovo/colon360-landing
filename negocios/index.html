@@ -248,11 +248,11 @@ html, body { margin: 0; padding: 0; background: var(--paper); color: var(--ink);
 .hero-meta strong { color: var(--ink); }
 
 /* hero visual: business card mockup */
-.biz-visual { position: relative; height: 540px; }
+.biz-visual { position: relative; height: 620px; }
 @media (max-width: 880px) { .biz-visual { height: 460px; max-width: 380px; margin: 0 auto; } }
-.phone-frame { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 300px; height: 540px; background: #1a1a1e; border-radius: 42px; padding: 9px; box-shadow: 0 40px 80px rgba(0,0,0,0.18); }
+.phone-frame { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 280px; background: #1a1a1e; border-radius: 42px; padding: 9px; box-shadow: 0 40px 80px rgba(0,0,0,0.18); }
 /* notch removed */
-.phone-frame-screen { width: 100%; height: 100%; border-radius: 34px; overflow: hidden; background: var(--paper); padding: 0; }
+.phone-frame-screen { width: 100%; border-radius: 34px; overflow: hidden; background: var(--paper); }
 .detail-hero { background: linear-gradient(150deg, #2E7D32, #1B5E20); border-radius: 34px 34px 0 0; padding: 24px 14px 14px; height: 160px; position: relative; overflow: hidden; }
 .detail-hero::before { content: ''; position: absolute; top: -20px; right: -20px; width: 80px; height: 80px; border-radius: 50%; background: rgba(255,255,255,0.08); }
 .detail-hero .eb { color: rgba(255,255,255,0.65); font-size: 8px; letter-spacing: 1.5px; text-transform: uppercase; font-weight: 700; }
@@ -475,8 +475,8 @@ details p { font-family: var(--sans); font-size: 15px; color: var(--mute); margi
         </div>
 
         <div class="phone-frame">
-          <div class="phone-frame-screen" style="padding:0;overflow:hidden;background:#0a0a0a;">
-            <img src="https://i.imgur.com/3zb3bmo.png" alt="Pantalla negocio Colón 360" style="width:100%;height:100%;object-fit:contain;display:block;">
+          <div class="phone-frame-screen">
+            <img src="https://i.imgur.com/3zb3bmo.png" alt="Pantalla negocio Colón 360" style="width:100%;height:auto;display:block;">
           </div>
         </div>
       </div>
