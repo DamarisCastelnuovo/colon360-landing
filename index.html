@@ -1279,7 +1279,7 @@ function csOpen(e) { if(e) e.preventDefault(); document.getElementById('cs-overl
 function csClose() { document.getElementById('cs-overlay').classList.remove('open'); }
 
 document.addEventListener('DOMContentLoaded', function() {
-  document.querySelectorAll('.btn-store, .iphone-link, .topbar-cta').forEach(function(el) {
+  document.querySelectorAll('.topbar-cta').forEach(function(el) {
     el.addEventListener('click', csOpen);
   });
 });
